@@ -24,7 +24,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  redirect("https://kofu.w-pcp.dev");
+  redirect("https://kofu.w-pcp.dev/2024");
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
